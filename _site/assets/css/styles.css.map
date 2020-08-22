@@ -7,8 +7,8 @@
 	],
 	"sourcesContent": [
 		"@import \"main\"; \n",
-		".nav-current{\r\n    color: green;\r\n}\r\n\r\n.nav-non-current{\r\n    color: red;\r\n}"
+		".nav-current{\n    color: green;\n}\n\n.nav-non-current{\n    color: red;\n}\n\n.post-date{\n    font-size:5;\n    color: grey;\n}\n.post-author{\n    font-size:5;\n    color:grey;\n}"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,YAAY,CAAA,EACR,KAAK,EAAE,KAAK,GACf;;AAED,AAAA,gBAAgB,CAAA,EACZ,KAAK,EAAE,GAAG,GACb"
+	"mappings": "ACAA,AAAA,YAAY,CAAA,EACR,KAAK,EAAE,KAAK,GACf;;AAED,AAAA,gBAAgB,CAAA,EACZ,KAAK,EAAE,GAAG,GACb;;AAED,AAAA,UAAU,CAAA,EACN,SAAS,EAAC,CAAC,EACX,KAAK,EAAE,IAAI,GACd;;AACD,AAAA,YAAY,CAAA,EACR,SAAS,EAAC,CAAC,EACX,KAAK,EAAC,IAAI,GACb"
 }

@@ -1,8 +1,9 @@
-- name: 얼굴
-  link: /
+- name: 기록
+  link: /blog.html
+
 
 - name: 관해
   link: /about.html
 
-- name: 기록
-  link: /blog.html
+- name: 얼굴
+  link: /
