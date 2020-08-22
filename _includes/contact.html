@@ -1,0 +1,7 @@
+<ul>
+        {% for item in site.data.personal %}
+            <li>
+                {{ item.name }}: <a href="{{ item.url }}">{{ item.id }}</a>
+            </li>
+        {% endfor %}
+</ul>

@@ -1,6 +1,6 @@
 ---
-layout: default
-title: About
+layout: about
+title: 관해
 ---
 
 # 관해
