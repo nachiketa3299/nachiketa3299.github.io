@@ -1,0 +1,1 @@
+$(".m_button").click(function() { $('button').toggleClass("nav-inner-current"); });

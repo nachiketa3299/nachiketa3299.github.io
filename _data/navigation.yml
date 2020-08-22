@@ -1,9 +1,9 @@
-- name: 기록
+- name: Records
   link: /blog.html
 
 
-- name: 관해
+- name: About
   link: /about.html
 
-- name: 얼굴
+- name: Main
   link: /

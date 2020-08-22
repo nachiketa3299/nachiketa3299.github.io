@@ -5,15 +5,12 @@
 -->
 <nav class="nav-outer">
     {% for item in site.data.navigation %}
-    <button class="nav-inner">
-        <a href="{{ item.link }}" 
+        <button 
             {% if page.url == item.link %}
-                class="nav-current"
+                class="nav-inner-current m_button" 
             {% else %}
-                class="nav-non-current"
-            {% endif %}>
-            {{ item.name }}  
-        </a>
-    </button>
+                class="nav-inner-noncurrent m_button"
+            {% endif %}
+            type="button" onclick="location.href='{{ item.link }}'">{{ item.name }}</button>
     {% endfor %}
 </nav>

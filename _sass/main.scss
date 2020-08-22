@@ -1,25 +1,61 @@
-nav button{
+*{
+    font-family: arial;
+}
+nav>button{
     background: none;
     border:0;
     display: inline-block;
+    font-size: large;
+    text-align: center;
 }
 
-nav a{
-    text-decoration: none;
-}
-.nav-inner{
-    padding: 3px 15px 3px 15px;
+.nav-inner-current{
+    color: skyblue;
+    font-weight: bold;
+    padding: 3px 18px 3px 18px;
     margin-right: 10px;
 
     border-radius: 7px;
     background: #ffffff;
-    box-shadow:  5px 5px 10px #808080, -5px -5px 10px #ffffff;
-    font-size: large;
+    box-shadow: 0px 0px 0px 0px #fff9,
+              0px 0px 0px 0px #fff9,
+              0px 0px 0px 0px #0001,
+              0px 0px 0px 0px #0001,
+              inset -7px -7px 20px 0px #fff9,
+              inset -4px -4px 5px 0px #fff9,
+              inset 7px 7px 20px 0px #0003,
+              inset 4px 4px 5px 0px #0001;
+
+    transition: padding 0.5s ease-out, background 1s ease-in;
+}
+.nav-inner-current:hover{
+    background:linear-gradient(145deg, #ffffff, #e6e6e6);
+}
+.nav-inner-noncurrent{
+    color: silver;
+    padding: 3px 15px 3px 15px;
+    margin-right: 10px;
+
+    border-radius: 7px;
+    background:linear-gradient(145deg, #ffffff, #ffffff);
+    box-shadow: -7px -7px 20px 0px #fff9,
+              -4px -4px 5px 0px #fff9,
+              7px 7px 20px 0px #0002,
+              4px 4px 5px 0px #0001,
+              inset 0px 0px 0px 0px #fff9,
+              inset 0px 0px 0px 0px #0001,
+              inset 0px 0px 0px 0px #fff9,
+              inset 0px 0px 0px 0px #0001;
+    
+    transition: color 0.7s ease-in, background 9s ease-in;
+}
+.nav-inner-noncurrent:hover{
+    color: skyblue;
+    background:linear-gradient(145deg, #ffffff, #e6e6e6);
 }
 .nav-current{
-    color: blue;
+    color: skyblue;
     font-weight: bold;
-
 }
 
 .nav-non-current{
