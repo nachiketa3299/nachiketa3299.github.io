@@ -7,8 +7,8 @@
 	],
 	"sourcesContent": [
 		"@import \"main\"; \n",
-		".nav-current{\n    color: green;\n}\n\n.nav-non-current{\n    color: red;\n}\n\n.post-date{\n    font-size:5;\n    color: grey;\n}\n.post-author{\n    font-size:5;\n    color:grey;\n}"
+		"nav button{\n    background: none;\n    border:0;\n    display: inline-block;\n}\n\nnav a{\n    text-decoration: none;\n}\n.nav-inner{\n    padding: 3px 15px 3px 15px;\n    margin-right: 10px;\n\n    border-radius: 7px;\n    background: #ffffff;\n    box-shadow:  5px 5px 10px #808080, -5px -5px 10px #ffffff;\n    font-size: large;\n}\n.nav-current{\n    color: blue;\n    font-weight: bold;\n\n}\n\n.nav-non-current{\n    color: silver;\n}\n\n.post-date{\n    font-size:5;\n    color: grey;\n}\n.post-author{\n    font-size:5;\n    color:grey;\n}"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,YAAY,CAAA,EACR,KAAK,EAAE,KAAK,GACf;;AAED,AAAA,gBAAgB,CAAA,EACZ,KAAK,EAAE,GAAG,GACb;;AAED,AAAA,UAAU,CAAA,EACN,SAAS,EAAC,CAAC,EACX,KAAK,EAAE,IAAI,GACd;;AACD,AAAA,YAAY,CAAA,EACR,SAAS,EAAC,CAAC,EACX,KAAK,EAAC,IAAI,GACb"
+	"mappings": "ACAA,AAAA,GAAG,CAAC,MAAM,CAAA,EACN,UAAU,EAAE,IAAI,EAChB,MAAM,EAAC,CAAC,EACR,OAAO,EAAE,YAAY,GACxB;;AAED,AAAA,GAAG,CAAC,CAAC,CAAA,EACD,eAAe,EAAE,IAAI,GACxB;;AACD,AAAA,UAAU,CAAA,EACN,OAAO,EAAE,iBAAiB,EAC1B,YAAY,EAAE,IAAI,EAElB,aAAa,EAAE,GAAG,EAClB,UAAU,EAAE,OAAO,EACnB,UAAU,EAAG,4CAA4C,EACzD,SAAS,EAAE,KAAK,GACnB;;AACD,AAAA,YAAY,CAAA,EACR,KAAK,EAAE,IAAI,EACX,WAAW,EAAE,IAAI,GAEpB;;AAED,AAAA,gBAAgB,CAAA,EACZ,KAAK,EAAE,MAAM,GAChB;;AAED,AAAA,UAAU,CAAA,EACN,SAAS,EAAC,CAAC,EACX,KAAK,EAAE,IAAI,GACd;;AACD,AAAA,YAAY,CAAA,EACR,SAAS,EAAC,CAAC,EACX,KAAK,EAAC,IAAI,GACb"
 }
