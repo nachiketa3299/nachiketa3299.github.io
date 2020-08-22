@@ -1,0 +1,18 @@
+---
+layout: default
+# post layout은 title, date, author 그리고 content body를 출력하는데, default layout이 가지고 있던 것들이다. 이것이 layout inheritence이다.
+---
+
+<h1>{{ page.title }}</h1>
+<p>
+    {{ page.date | date_to_string }}
+
+    { % assign author = site.authors | where: 'short_name', page.author | first %}
+
+    {% if author %}
+        - <a href="{{ author.url }}">{{ author.name }}</a>"
+    {% endif %}
+</p>
+
+
+{{ content }}
