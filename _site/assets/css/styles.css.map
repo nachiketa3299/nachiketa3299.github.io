@@ -7,8 +7,8 @@
 	],
 	"sourcesContent": [
 		"@import \"main\"; \n",
-		".current{\r\n    color: green;\r\n}"
+		".nav-current{\r\n    color: green;\r\n}\r\n\r\n.nav-non-current{\r\n    color: red;\r\n}"
 	],
 	"names": [],
-	"mappings": "ACAA,AAAA,QAAQ,CAAA,EACJ,KAAK,EAAE,KAAK,GACf"
+	"mappings": "ACAA,AAAA,YAAY,CAAA,EACR,KAAK,EAAE,KAAK,GACf;;AAED,AAAA,gBAAgB,CAAA,EACZ,KAAK,EAAE,GAAG,GACb"
 }

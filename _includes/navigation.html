@@ -7,9 +7,11 @@
     {% for item in site.data.navigation %}
     <a href="{{ item.link }}" 
         {% if page.url == item.link %}
-            class="current"
+            class="nav-current"
+        {% else %}
+            class="nav-non-current"
         {% endif %}>
-        {{ item.name }}
+        [{{ item.name }}]
     </a>
     {% endfor %}
 </nav>

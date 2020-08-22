@@ -1,3 +1,5 @@
-.current { color: green; }
+.nav-current { color: green; }
+
+.nav-non-current { color: red; }
 
 /*# sourceMappingURL=styles.css.map */

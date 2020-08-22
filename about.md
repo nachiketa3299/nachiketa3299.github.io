@@ -3,6 +3,6 @@ layout: default
 title: About
 ---
 
-# About page
+# 관해
 
-This page tells you a little bit about me.
+보고 들은 것 들에 대한 생각과 그 기록
