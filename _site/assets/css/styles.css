@@ -1,4 +1,7 @@
+/* box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color]; */
 * { font-family: arial; }
+
+body { background-color: #faedfc; }
 
 nav > button { background: none; border: 0; display: inline-block; font-size: large; text-align: center; }
 

@@ -4,11 +4,21 @@
         <meta charset="utf-8">
         <title>{{ page.title }}</title>
         <link rel="stylesheet" href="/assets/css/styles.css">
-        {% feed_meta %}
-        {% seo %}
+
+        <!-- {% feed_meta %} I donno how to use this -->
+        <!-- {% seo %} -I donno how to use this -->
+
     </head>
+
     <body>
+        <!-- # include 태그를 사용하면 _includes 폴더에 저장된 조각파일의 내용을 포함시킬 수 있다. -->
+
+        {% include title.html %}
         {% include navigation.html %}
+        {% include content.html %}
+        {% include sidebar.html %}
+        {% include widget.html %}
+
         {{ content }}
     </body>
 </html>
